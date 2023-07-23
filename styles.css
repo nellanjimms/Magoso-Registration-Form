@@ -1,0 +1,58 @@
+* {
+    padding: 2px;
+}
+body {
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    background-color: rgba(192, 80, 6, 0.863);
+    text-align: center;
+    padding: 50px;
+    border:black solid 2px;
+}
+form {
+    margin:5px 0 5px 40px;
+}
+section {
+    background-color: rgba(216, 139, 45, 0.836);
+    border:black solid 2px;
+    border-top: none;
+}
+
+label {
+    display: inline-block;
+    width: 10rem; 
+    margin: 10px;
+}
+.competence {
+    display: block;
+}
+.gender {
+    vertical-align: text-bottom;
+
+}
+input, select, textarea {
+    vertical-align: text-top;
+    height:20px;
+    background-color: rgb(202, 183, 202);
+
+}
+textarea {
+    min-height: 100px;
+}
+button {
+    background-color:rgb(199, 173, 108) ;
+    border-radius: 25%;
+    margin: 50px;
+    width: 100px;
+    height: 30px;
+
+}   
+ select:hover, input:hover {
+ transform: scale(1.1);
+}
+
+    
+    
+

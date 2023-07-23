@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <title>Magoso Registration Form</title>
+        <link href="styles.css" type="text/css" rel ="stylesheet">
+        <meta charset = "utf-8">
+    </head>
+    <body>
+        <header>
+            Magoso Registration form
+        </header>
+        <section>
+            <form>
+              <div>
+                <label>First Name: </label>
+                <input id="firstname" type="Text" required>
+              </div>
+              <div>
+                <label>Last Name: </label>
+                <input id ="Lastname" type="Text" required>
+              </div>
+              <div>
+                <label>Email: </label>
+                <input id="email" type="email"  required>
+              </div>
+              <div>
+                <label>Phone Number</label>
+                <input id="phone-number" type="number">
+              </div>
+              <div>
+                <label>Gender </label>
+                <input name="gender" type="radio"> Male
+                <input name="gender" type="radio"> Female
+              </div>
+              <div>
+                <label>Age </label>
+                <input id="Age" type="number">
+              </div>
+              <div>
+                <label>Program:</label>
+                <select id="dropdwn">
+                  <option>Full Stack</option>
+                  <option>Front-End</option>
+                  <option>Back-End</option>
+                  <option>Not Sure</option>
+                </select>
+              </div>
+              <div>
+                <label> Competences </label>
+                <label class = "competence">
+                    <input  type="checkbox">HTML
+                </label>
+                <label class = "competence">
+                    <input type="checkbox">CSS
+                </label>
+                <label class = "competence">
+                    <input type="checkbox">JavaScript
+                </label>
+                <label class = "competence">
+                    <input type="checkbox">React
+                </label>
+                <label class = "competence">
+                    <input  type="checkbox">Node JS
+                </label>
+                <label class = "competence">
+                    <input type="checkbox">Python  
+                </label>             
+              </div>
+              <div>
+                <label>Registration Date:</label>
+                <input type="date" required>
+                </div>
+                <div>
+                <label>
+                    Comment: </label>
+                    <textarea placeholder="Comment here"></textarea>
+                </div>
+                <div>
+                    <button type="Submit">Submit</button>
+                </div>
+            </form>
+            </form>
+            
+        </section>
+
+    </body>
+</html>
