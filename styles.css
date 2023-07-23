@@ -1,5 +1,5 @@
 * {
-    padding: 5px;
+    padding: 2px;
 }
 body {
     font-family: Verdana, sans-serif;
@@ -32,8 +32,14 @@ label {
 .competence {
     display: block;
 }
+.checkbox {
+    width: 1em;
+    height: 1em;
+}
 .gender {
-    vertical-align: text-bottom;
+    vertical-align:middle ;
+    height:1em;
+    width: 1em;
 
 }
 input, select, textarea {
@@ -51,7 +57,7 @@ button {
     border-radius: 25%;
     margin: 50px;
     width: 100px;
-    height: 30px;
+    height: 50px;
 
 }   
  select:hover, input:hover {
