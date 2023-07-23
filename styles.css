@@ -1,5 +1,5 @@
 * {
-    padding: 2px;
+    padding: 5px;
 }
 body {
     font-family: Verdana, sans-serif;
@@ -12,7 +12,9 @@ header {
     border:black solid 2px;
 }
 form {
-    margin:5px 0 5px 40px;
+    width:75%;
+    margin:auto;
+
 }
 section {
     background-color: rgba(216, 139, 45, 0.836);
